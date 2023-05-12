@@ -19,6 +19,6 @@ For Azure B2C tenant: Click left menu, Click Active Directory and apply for Azur
 ### Adherence to the 5 pillars of the Azure Well Architected Framework
 The 1 recommendation the advisor asked for wasn't for any of my created services
 
-![image of Advisor recommendations](./images/Azure Advisor.png)
+![image of Advisor recommendations](./images/Azure_advisor.png)
 
 ### Future Revisions
