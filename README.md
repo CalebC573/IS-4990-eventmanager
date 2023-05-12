@@ -7,3 +7,11 @@ My project is an event manager project that allows users to keep track of events
 ### Project DFD
 
 ![image of project DFD](./images/DFD.png)
+
+### The Services Used
+I used Azure App Service to deploy my app to Azure and a PostgreSQL database since the base database for django is a sqlite database which is not able to be imported to Azure. I also use the Azure Active Directory and a B2C tenant to allow for users to login to my app securely.
+
+### Adherence to the 5 pillars of the Azure Well Architected Framework
+
+
+### Future Revisions
