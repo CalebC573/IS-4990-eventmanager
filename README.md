@@ -14,7 +14,7 @@ I used a PostgreSQL database since the base database for django is a sqlite data
 ### How to make Azure Services
 PostgreSQL database CLI command: az postgres flexible-server create --name eventmanagerdb --resource-group rg-carnahan --location eastus --tier Burstable --sku Standard_B1ms --login Caleb --password Az12130117 (Should ask for allowing the database server to use client's IP address to which answer yes. If not got to the database in the portal, click networking, and scroll down and click to allow client IP address)
 
-
+![image of django code for linking app to database](./images/DatabaseCode.png)
 
 For Azure B2C tenant: Click left menu, Click Active Directory and apply for Azure B2C tenant:
 
