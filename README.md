@@ -12,7 +12,7 @@ My project is an event manager project that allows users to keep track of events
 I used a PostgreSQL database since the base database for django is a sqlite database which is not able to be imported to Azure. I also tried use the Azure Active Directory and a B2C tenant to allow for users to login to my app securely.
 
 ### How to make Azure Services
-PostgreSQL database CLI command: az postgres flexible-server create --name eventmanagerdb --resource-group rg-carnahan --location eastus --tier Burstable --sku Standard_B1ms --login Caleb --password Az12130117 (Should ask for allowing the database server to use client's IP address to which answer yes. If not got to the database in the portal, click networking, and scroll down and click to allow client IP address)
+PostgreSQL database CLI command: az postgres flexible-server create --name eventmanagerdb --resource-group rg-carnahan --location eastus --tier Burstable --sku Standard_B1ms --login Caleb --password Az12130117 (Should ask for allowing the database server to use client's IP address to which answer yes. If not got to the database in the portal, click networking, and scroll down and click to allow client IP address). In order to utilize the database locally download the eventmanager files and if you want to change any aaspects of the database (i.e. password, login, name) just change the corresponding code in the settings.py file. After the settings are set successfully, to run the code open an IDE with python and django installed and run python manage.py runsever and copy and paste the development server url into a browser and the app will show up
 
 ![image of django database code](./images/DatabaseCode.png)
 
